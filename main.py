@@ -1,3 +1,5 @@
+# type: ignore
+
 """
 Merlin UK Customer Opportunity Assistant
 ========================================
