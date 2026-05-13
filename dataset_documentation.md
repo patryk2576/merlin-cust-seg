@@ -2,7 +2,7 @@
 
 ## 1. Dataset Overview
 
-This dataset contains a geographic customer opportunity segmentation for Merlin Entertainments UK. It is built at **MSOA (Middle Layer Super Output Area)** level — roughly 8,000 areas covering the whole UK, each representing ~5,000–15,000 people. Every row represents one MSOA and its associated demographic profile, cluster assignment, distances to 23 Merlin attractions, and calculated opportunity scores. 
+This dataset contains a geographic customer opportunity segmentation for Merlin Entertainments UK. It is built at **MSOA (Middle Layer Super Output Area)** level — roughly 8,000 areas covering the whole UK, each representing ~5,000–15,000 people. Every row represents one MSOA and its associated demographic profile, cluster assignment, distances to Merlin attractions, and calculated opportunity scores. 
 
 **Primary data sources:**
 - UK Census 2021 (age structure, household composition)
@@ -90,7 +90,7 @@ This section lists **every column** in `msoa_attraction_opportunities.csv` exact
 ### 2G. Attraction, Distance & Opportunity
 | Column | Meaning |
 |--------|---------|
-| `attraction_name` | Full Merlin attraction name (23 unique values) |
+| `attraction_name` | Full Merlin attraction name |
 | `latitude_attraction` | Attraction latitude |
 | `longitude_attraction` | Attraction longitude |
 | `distance_km` | Haversine distance from MSOA centroid to attraction (km) |
@@ -231,7 +231,7 @@ These segments were derived using K-Means clustering on scaled demographic featu
 
 ## 7. Merlin Attractions in the Dataset
 
-The dataset contains Haversine distances (in kilometres) from every MSOA centroid to each of the following 23 attractions. Distances are straight-line (crow flies), not drive-time.
+The dataset contains Haversine distances (in kilometres) from every MSOA centroid to each of the following attractions. Distances are straight-line (crow flies), not drive-time.
 
 ### By Attraction Type & Catchment Behaviour
 
