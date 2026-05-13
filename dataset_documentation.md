@@ -9,7 +9,7 @@ This dataset contains a geographic customer opportunity segmentation for Merlin 
 - ONS Index of Multiple Deprivation (IMD) and sub-domain scores
 - ONS Postcode Directory / MSOA centroid lookups (latitude, longitude)
 - Merlin UK public attraction location data (latitude, longitude)
-- Experian/ONS income proxies where available
+- ONS income proxies where available
 
 **What the dataset can answer:**
 - Which geographic areas are highest opportunity for a specific Merlin attraction
